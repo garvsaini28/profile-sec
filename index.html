@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CryptoMart Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand">CRYPTOMART</h1>
+    <div class="profile-card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/100" alt="User Image" class="avatar" />
+        <div class="input-group">
+          <label>User Name</label>
+          <input type="text" value="John Appleseed" id="userName" />
+        </div>
+        <div class="input-group">
+          <label>User ID</label>
+          <input type="text" value="john.appleseed21" id="userId" disabled />
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="card">
+          <h3>Remaining Token</h3>
+          <p>3,450</p>
+        </div>
+        <div class="card">
+          <h3>Used Token</h3>
+          <p>1,250</p>
+        </div>
+        <div class="card">
+          <h3>Crypto Balance</h3>
+          <p>$2,345.00</p>
+        </div>
+        <div class="card">
+          <h3>Wallet</h3>
+          <p class="wallet-status">Connected <span class="wallet-name">MetaMask</span></p>
+          <button class="manage-btn">Manage Wallets</button>
+        </div>
+      </div>
+
+      <button class="open-wallet">Open Wallet</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
